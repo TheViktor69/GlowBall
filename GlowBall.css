@@ -1,0 +1,56 @@
+body{
+    background-color: pink;
+}
+.kor{
+    font-family: "Abril Fatface", "consolas";
+    color: green;
+}
+.kor2{
+    position: relative; top: 160px;
+    width: 300px;
+    height: auto;
+}
+.rok{
+    position: relative; right: -540px;
+    width: 350px;
+    height: 100px;
+    background-color: #95BB90 ;
+    color: #996888;
+    font-family: "Oswald", "consolas";
+}
+.rok2{
+    position: relative; right: -540px;
+    width: 346px;
+    height: auto;
+    background-color: #90BB95;
+    color: #996888;
+    font-family: "Martian Mono", "consolas";
+}
+.rok2{
+    position: relative; top: 200px;
+}
+.clock{
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: -300px;
+}
+.elsogomb{
+    font-family: "press Start 2P", "consolas";
+    font-size: 35px;
+    position: relative;
+    right: -45px;
+    width: 350px;
+    height: 150px;
+    background-color: #00C2FB;
+    box-shadow: 0 5px 0 #1B809E ;
+    border-radius: 1em;
+    border: none;
+}
+.elsogomb{
+    top: -670px;
+}
+.elsogomb:active{
+    box-shadow: none;
+    transform: translateY(5px);
+}
